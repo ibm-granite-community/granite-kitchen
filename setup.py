@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ibm_granite_community',
+    name='granite-kitchen',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        "git+https://github.com/ibm-granite-community/utils"
+        "ibm-granite-community @ git+https://github.com/ibm-granite-community/utils",
         'python-dotenv',
         'langchain_community<0.3.0',
         "langchain_ollama<0.2.0",
