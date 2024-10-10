@@ -6,16 +6,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         "ibm-granite-community @ git+https://github.com/ibm-granite-community/utils",
-        'python-dotenv',
-        'langchain_community<0.3.0',
+        "langchain_community<0.3.0",
         "langchain_ollama<0.2.0",
         "replicate",
-        "langchain-pinecone",
-        "langchain-milvus",
-        "langchain-chroma",
-        "langchain_ibm",
-        "langchain_huggingface",
-        "requests==2.32.3", # This is a `google-colab 1.0.0` dependency
     ],
     author='The IBM Granite Community Team',
     description='A collection of setup instructions and component recipes for IBM Granite Community notebooks.',
