@@ -5,7 +5,7 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
 ### Notebook Environments
 
 1. [Run Jupyter Notebooks Locally](recipes/Getting_Started_with_Jupyter_Locally/Getting_Started_with_Jupyter_Locally.md)
-2. A Google Colab button is adjacent to the recipes wherever that environment is supported.
+2. A Google Colab button is next to notebook links wherever that environment is supported.
 
 ## Inference Platforms
 
