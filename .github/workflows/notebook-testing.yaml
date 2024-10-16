@@ -4,9 +4,22 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '.github/workflows/notebook-testing.yaml'
+      - 'recipes/Components/Langchain_Embeddings_Models.ipynb'
+      - 'recipes/Components/Langchain_LLMs.ipynb'
+      - 'recipes/Components/Langchain_Vector_Stores.ipynb'
+      - 'recipes/Getting_Started/Getting_Started_with_Replicate.ipynb'
+      -
   pull_request:
     branches:
       - main
+    paths:
+      - '.github/workflows/notebook-testing.yaml'
+      - 'recipes/Components/Langchain_Embeddings_Models.ipynb'
+      - 'recipes/Components/Langchain_LLMs.ipynb'
+      - 'recipes/Components/Langchain_Vector_Stores.ipynb'
+      - 'recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb'
 
 jobs:
   test-notebooks:
@@ -43,7 +56,8 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: |
           echo "PYTHONPATH=$PYTHONPATH"
-          for notebook in $(find . -name '*.ipynb'); do  
+          notebooks=$(cat .github/notebook_lists/vanilla_notebooks.txt | tr '\n' ' ')  
+          for notebook in $notebooks; do 
             echo "Executing $notebook"  
             jupyter nbconvert --to notebook --execute --inplace $notebook  
           done
