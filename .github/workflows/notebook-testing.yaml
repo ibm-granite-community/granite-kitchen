@@ -40,6 +40,7 @@ jobs:
           WATSONX_APIKEY: ${{ secrets.WATSONX_APIKEY }}
           WATSONX_PROJECT_ID: ${{ secrets.WATSONX_PROJECT_ID }}
           WATSONX_URL: ${{ secrets.WATSONX_URL }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: |
           echo "PYTHONPATH=$PYTHONPATH"
           for notebook in $(find . -name '*.ipynb'); do  
