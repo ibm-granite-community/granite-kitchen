@@ -11,7 +11,6 @@ on:
       - 'recipes/Components/Langchain_Vector_Stores.ipynb'
       - 'recipes/Getting_Started/Getting_Started_with_NVIDIA.ipynb'
       - 'recipes/Getting_Started/Getting_Started_with_Replicate.ipynb'
-      - 'recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb'
   pull_request:
     branches:
       - main
@@ -22,7 +21,6 @@ on:
       - 'recipes/Components/Langchain_Vector_Stores.ipynb'
       - 'recipes/Getting_Started/Getting_Started_with_NVIDIA.ipynb'
       - 'recipes/Getting_Started/Getting_Started_with_Replicate.ipynb'
-      - 'recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb'
 
 jobs:
   test-notebooks:
