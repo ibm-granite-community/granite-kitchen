@@ -9,8 +9,8 @@ on:
       - 'recipes/Components/Langchain_Embeddings_Models.ipynb'
       - 'recipes/Components/Langchain_LLMs.ipynb'
       - 'recipes/Components/Langchain_Vector_Stores.ipynb'
+      - 'recipes/Getting_Started/Getting_Started_with_NVIDIA.ipynb'
       - 'recipes/Getting_Started/Getting_Started_with_Replicate.ipynb'
-      -
   pull_request:
     branches:
       - main
@@ -19,7 +19,8 @@ on:
       - 'recipes/Components/Langchain_Embeddings_Models.ipynb'
       - 'recipes/Components/Langchain_LLMs.ipynb'
       - 'recipes/Components/Langchain_Vector_Stores.ipynb'
-      - 'recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb'
+      - 'recipes/Getting_Started/Getting_Started_with_NVIDIA.ipynb'
+      - 'recipes/Getting_Started/Getting_Started_with_Replicate.ipynb'
 
 jobs:
   test-notebooks:
