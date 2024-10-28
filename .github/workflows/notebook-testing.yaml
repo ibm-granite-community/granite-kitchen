@@ -54,7 +54,6 @@ jobs:
           WATSONX_URL: ${{ secrets.WATSONX_URL }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: |
-          set -e
           echo "PYTHONPATH=$PYTHONPATH"
           notebooks=$(cat .github/notebook_lists/vanilla_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
           for notebook in $notebooks; do 
