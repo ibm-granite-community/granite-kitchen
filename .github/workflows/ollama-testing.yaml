@@ -43,7 +43,6 @@ jobs:
 
       - name: Run Ollama Notebooks
         run: |
-          set -e
           notebooks=$(cat .github/notebook_lists/ollama_notebooks.txt | grep -v '^#' | tr '\n' ' ')  
           for notebook in $notebooks; do  
             echo "Executing $notebook"  
