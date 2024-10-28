@@ -41,6 +41,7 @@ jobs:
           WATSONX_PROJECT_ID: ${{ secrets.WATSONX_PROJECT_ID }}
           WATSONX_URL: ${{ secrets.WATSONX_URL }}
         run: |
+          set -e
           echo "PYTHONPATH=$PYTHONPATH"
           for notebook in $(find . -name '*.ipynb'); do  
             echo "Executing $notebook"  
