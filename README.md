@@ -34,6 +34,16 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
 1. [Vector Stores](/recipes/Components/Langchain_Vector_Stores.ipynb)
 1. [Embeddings Models](/recipes/Components/Langchain_Embeddings_Models.ipynb)
 
+## Build Status
+
+<a href="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebook-testing.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebook-testing.yaml/badge.svg" alt="CI for Jupyter Notebooks">
+</a>
+
+<a href="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/ollama-testing.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/ollama-testing.yaml/badge.svg" alt="CI for Ollama Notebooks">
+</a>
+
 ## Contributing
 
 For information about contributing to this repo, code of conduct guidelines, etc., see the community [CONTRIBUTING][CG] and [Code of Conduct][CoC] guides.  All commits require DCO-signoff (discussed [here][CG-legal]) _and_ GPG or SSH signing (discussed [here][CG-signing]).  The GitHub recommended code security settings are enforced on this public repository (which include the signing requirement).
