@@ -36,12 +36,8 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
 
 ## Build Status
 
-<a href="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebook-testing.yaml">
-  <img src="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebook-testing.yaml/badge.svg" alt="CI for Jupyter Notebooks">
-</a>
-
-<a href="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/ollama-testing.yaml">
-  <img src="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/ollama-testing.yaml/badge.svg" alt="CI for Ollama Notebooks">
+<a href="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebooks.yaml">
+  <img src="https://github.com/ibm-granite-community/granite-kitchen/actions/workflows/notebooks.yaml/badge.svg" alt="Testing Notebooks">
 </a>
 
 ## Contributing
