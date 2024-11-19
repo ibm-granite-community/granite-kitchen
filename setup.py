@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        "ibm-granite-community @ git+https://github.com/ibm-granite-community/utils",
+        "ibm-granite-community-utils @ git+https://github.com/ibm-granite-community/utils",
         "langchain_community<0.3.0",
         "langchain_ollama<0.2.0",
         "replicate",
