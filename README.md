@@ -1,6 +1,6 @@
 # IBM Granite Kitchen
 
-The example notebooks in the Granite Kitchen cover the initial decisions and setup needed to get started using Granite models. 
+The example notebooks in the Granite Kitchen cover the initial decisions and setup needed to get started using Granite models.
 
 ### Notebook Environments
 
@@ -33,6 +33,10 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
 1. [LLMs](/recipes/Components/Langchain_LLMs.ipynb)
 1. [Vector Stores](/recipes/Components/Langchain_Vector_Stores.ipynb)
 1. [Embeddings Models](/recipes/Components/Langchain_Embeddings_Models.ipynb)
+
+### GUIs
+
+1. [AnythingLLM](/recipes/AnythingLLM/anythingllm_rag.md)
 
 ## Build Status
 
