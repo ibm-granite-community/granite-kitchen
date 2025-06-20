@@ -21,8 +21,8 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-kitchen/blob/main/recipes/Getting_Started/Getting_Started_with_Replicate.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
-1. [WatsonX](/recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb)
-   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-kitchen/blob/main/recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb">
+1. [IBM watsonx](/recipes/Getting_Started/Getting_Started_with_watsonx.ipynb)
+   <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-kitchen/blob/main/recipes/Getting_Started/Getting_Started_with_watsonx.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
 
