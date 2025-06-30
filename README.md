@@ -25,6 +25,7 @@ The example notebooks in the Granite Kitchen cover the initial decisions and set
    <a target="_blank" href="https://colab.research.google.com/github/ibm-granite-community/granite-kitchen/blob/main/recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
    </a>
+1. [LM Studio](/recipes/Getting_Started/Getting_Started_with_LMStudio.ipynb) (Not compatible with Colab)
 
 ## Components
 
