@@ -17,5 +17,5 @@ runs:
     - name: Pull Granite model
       shell: bash
       run: |
-        ollama pull granite-code:3b
+        ollama pull ibm/granite4:micro
 
