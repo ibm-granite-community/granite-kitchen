@@ -1,4 +1,3 @@
-recipes/Getting_Started/Getting_Started_with_NVIDIA.ipynb
 recipes/Getting_Started/Getting_Started_with_Replicate.ipynb
 recipes/Getting_Started/Getting_Started_with_WatsonX.ipynb
 recipes/Components/Langchain_Embeddings_Models.ipynb
