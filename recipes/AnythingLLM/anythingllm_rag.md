@@ -29,11 +29,11 @@ brew install ollama
 
 ### Windows installation steps
 
-Install ollama via the website [here](https://ollama.com/download/windows).
+Install Ollama via the [website](https://ollama.com/download/windows).
 
-## Download Grainite
+## Download Granite
 
-After getting ollama setup open up a terminal or command prompt and run the following command. It
+After getting Ollama setup open up a terminal or command prompt and run the following command. It
 will pull `granite3.1-dense:8b` down to your local laptop!
 
 ```bash
@@ -42,7 +42,7 @@ ollama pull granite3.1-dense:8b
 
 ## Set up AnythingLLM
 
-Head on over [here](https://anythingllm.com/desktop) choose the correct version
+Head over the the [AnythingLLM](https://anythingllm.com/desktop) website and choose the correct version
 for your Operating System.
 
 Now that you've gotten AnythingLLM installed we need to configure it to use models from `ollama` using the following screenshots as a guide.
@@ -94,7 +94,7 @@ it knows _something_.
 
 ![who is batman](./images/anythingllm_who_is_batman.png)
 
-Now you may notice that the answer is slighty different then the screen shot above. That's expected and nothing to worry about.
+Now you may notice that the answer is slightly different then the screen shot above. That's expected and nothing to worry about.
 
 Congratulations! You have AnythingLLM running now, configured to work with `granite3.1-dense` and `ollama`!
 
@@ -110,16 +110,16 @@ Create a new workspace, and call it whatever you want:
 
 Now you have a new workspace, ask it a question like:
 
-```
+```text
 What was the US federal budget for 2024?
 ```
 
 You should come back with something like the following, it may be different, but the gist is there.
 
-![doesnt know the budget](./images/doent_know.png)
+![doesn't know the budget](./images/doent_know.png)
 
-Not great right? Well now we need to give it a way to look up this data, luckly, we have a backed up
-copy of the budget pdf [here](https://github.com/user-attachments/files/18510560/budget_fy2024.pdf).
+Not great right? Well now we need to give it a way to look up this data, luckily, we have a backed up
+[copy of the budget pdf](https://github.com/user-attachments/files/18510560/budget_fy2024.pdf).
 Go ahead and save it to your local machine, and be ready to grab it.
 
 Now spin up a new workspace, (yes, please a new workspace, it seems that sometimes AnythingLLM has
@@ -146,5 +146,3 @@ Now when the chat comes back up ask the same question, and you should see some n
 It won't be exactly what we are looking for, but it's enough to now see that the Granite model can
 leverage the local document index for RAG and in turn can _look things up_ for you. You'll need some prompt engineering
 to get exactly what you want but this is just the start of leveraging the AI!
-
-
