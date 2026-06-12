@@ -53,7 +53,7 @@ For more background and a FAQ, please see the [community wiki](https://github.co
 
 ## Licenses
 
-The Granite Code Cookbook's base license is CC BY 4.0.
+The Granite Kitchen's base license is CC BY 4.0.
 
 Code in this repository, including in notebook cells, is licensed under Apache 2.0.
 
