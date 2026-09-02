@@ -34,10 +34,10 @@ Install Ollama via the [website](https://ollama.com/download/windows).
 ## Download Granite
 
 After getting Ollama setup open up a terminal or command prompt and run the following command. It
-will pull `granite3.1-dense:8b` down to your local laptop!
+will pull `granite4.2:8b` down to your local laptop!
 
 ```bash
-ollama pull granite3.1-dense:8b
+ollama pull granite4.2:8b
 ```
 
 ## Set up AnythingLLM
@@ -50,32 +50,12 @@ Now that you've gotten AnythingLLM installed we need to configure it to use mode
 Open up AnyThingLLM, and you should see something like the following:
 ![default screen](./images/anythingllm_open_screen.png)
 
-```bash
-ollama pull granite3.1-dense:8b
-```
-
-If you didn't know, the supported languages with `granite3.1-dense` now include:
-
-- English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, Chinese (Simplified)
-
-And the Capabilities also include:
-
-- Summarization
-- Text classification
-- Text extraction
-- Question-answering
-- Retrieval Augmented Generation (RAG)
-- Code related tasks
-- Function-calling tasks
-- Multilingual dialog use cases
-- Long-context tasks including long document/meeting summarization, long document QA, etc.
-
 Next click on the `wrench` icon, and open up the settings. For now we are going to configure the global settings for `ollama`
 but you may want to change it in the future.
 
 ![wrench icon](./images/anythingllm_wrench_icon.png)
 
-Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite3-dense:8b` model. (You should be able to
+Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite4.2:8b` model. (You should be able to
 see all the models you have access to through `ollama` there.)
 
 ![llm configuration](./images/anythingllm_llm_config.png)
@@ -96,7 +76,7 @@ it knows _something_.
 
 Now you may notice that the answer is slightly different then the screen shot above. That's expected and nothing to worry about.
 
-Congratulations! You have AnythingLLM running now, configured to work with `granite3.1-dense` and `ollama`!
+Congratulations! You have AnythingLLM running now, configured to work with `granite4.2:8b` and `ollama`!
 
 ## Creating your own local RAG
 
