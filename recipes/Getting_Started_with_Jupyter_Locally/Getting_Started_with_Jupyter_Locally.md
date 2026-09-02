@@ -6,9 +6,8 @@ How to run the Granite Snack recipe Jupyter notebooks on your computer.
 
 Clone the repo and cd into the repo directory.
 
-```python
-git clone git@github.com:ibm-granite-cookbooks/granite-snack-cookbook.git
-
+```shell
+git clone git@github.com:ibm-granite-community/granite-snack-cookbook.git
 cd granite-snack-cookbook
 ```
 
