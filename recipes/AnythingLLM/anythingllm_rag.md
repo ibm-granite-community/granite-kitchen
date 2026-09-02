@@ -55,7 +55,7 @@ but you may want to change it in the future.
 
 ![wrench icon](./images/anythingllm_wrench_icon.png)
 
-Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite4.2:8b` model. (You should be able to
+Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite4.2:3b` model. (You should be able to
 see all the models you have access to through `ollama` there.)
 
 ![llm configuration](./images/anythingllm_llm_config.png)
