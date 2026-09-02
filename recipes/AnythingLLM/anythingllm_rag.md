@@ -34,10 +34,10 @@ Install Ollama via the [website](https://ollama.com/download/windows).
 ## Download Granite
 
 After getting Ollama setup open up a terminal or command prompt and run the following command. It
-will pull `granite4.2:3b` down to your local laptop!
+will pull `granite4.2:8b` down to your local laptop!
 
 ```bash
-ollama pull granite4.2:3b
+ollama pull granite4.2:8b
 ```
 
 ## Set up AnythingLLM
@@ -55,7 +55,7 @@ but you may want to change it in the future.
 
 ![wrench icon](./images/anythingllm_wrench_icon.png)
 
-Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite4.2:3b` model. (You should be able to
+Click on the "LLM" section, and select **Ollama** as the LLM Provider. Also select the `granite4.2:8b` model. (You should be able to
 see all the models you have access to through `ollama` there.)
 
 ![llm configuration](./images/anythingllm_llm_config.png)
@@ -76,7 +76,7 @@ it knows _something_.
 
 Now you may notice that the answer is slightly different then the screen shot above. That's expected and nothing to worry about.
 
-Congratulations! You have AnythingLLM running now, configured to work with `granite4.2:3b` and `ollama`!
+Congratulations! You have AnythingLLM running now, configured to work with `granite4.2:8b` and `ollama`!
 
 ## Creating your own local RAG
 
